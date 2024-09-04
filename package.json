@@ -1,0 +1,33 @@
+{
+  "name": "todo-electron",
+  "version": "1.0.0",
+  "description": "Todo list built with electronjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebAurand/todo-electron.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "electron",
+    "js"
+  ],
+  "author": "Caleb Aurand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CalebAurand/todo-electron/issues"
+  },
+  "homepage": "https://github.com/CalebAurand/todo-electron#readme",
+  "devDependencies": {
+    "electron": "^32.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0"
+  }
+}
